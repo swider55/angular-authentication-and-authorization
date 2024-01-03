@@ -1,10 +1,11 @@
-# Angular authentication and authorization with JEST
+# Angular authentication and authorization with JEST, signal and a new control flow
 
 ## Overview
-This project is a straightforward login page developed using Angular 17. The focus of this application is to provide a basic functional interface for user authentication.
+This project is a straightforward login page using Angular 17. The focus of this application is to provide a basic functional interface for user authentication, using Signals introduced in Angular 16 and a new control flow system from Angular 17. Also this project uses JEST instead Jasmine/Karma
 
 ### Key Features
-- **Angular 17**: The latest version of Angular offers cutting-edge features and optimized performance for building modern web applications.
+- **Angular 17**: The latest version of Angular offers cutting-edge features and optimized performance for building modern web applications. It includes new enhanced control flow system.
+- **Signals**: system introduced in ANgular 16. that granularly tracks how and where your state is used throughout an application, allowing the framework to optimize rendering updates.
 - **JEST Testing Environment**: Despite the integration of Angular and JEST still being experimental, this project leverages JEST for its test environment.
 - **Realworld API Backend**: The backend interactions are handled through the Realworld API, ensuring a robust and reliable data management system.
 
@@ -30,3 +31,4 @@ This project uses JEST as its testing framework. To run the tests:
 
 ```bash
 ng test
+
